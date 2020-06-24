@@ -4,11 +4,11 @@ import torch
 
 TRAIN = {
     # hardware and framework parameters
-    'use_gpu': True,
+    'use_gpu': False,
     'dtype': torch.float32,
 
     # paths to data splits
-    'data_path_root': '~/building_extraction/sample_data/', # common part of the path for data_path_train, data_path_val and data_path_test
+    'data_path_root': '/content/drive/My Drive/space-net-exploration/data/processed/', # common part of the path for data_path_train, data_path_val and data_path_test
     'data_path_train': 'Vegas_8bit_256_train',
     'data_path_val': 'Vegas_8bit_256_val',
     'data_path_test': 'Vegas_8bit_256_test',
